@@ -4,7 +4,7 @@ const path = require("path");
 
 const HTTP_PORT = process.env.PORT || 8080;
 
-app.use(express.static("public"));
+// app.use(express.static("public"));
 
 // setup socket.io
 var http = require('http').Server(app);

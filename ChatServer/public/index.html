@@ -8,13 +8,13 @@
        
 
        <script>
-        var socket = io.connect('http://localhost:8080'); // we can also use io.connect() to connect to the current host
-        socket.on('connect', function(data) {
-            socket.emit('chat message', 'Hello World');
-        });
-        socket.on('chat message', function(msg){
-          console.log("recieved: " + msg);
-        });
+        //var socket = io.connect('http://localhost:8080'); // we can also use io.connect() to connect to the current host
+        // socket.on('connect', function(data) {
+        //     socket.emit('chat message', 'Hello World');
+        // });
+        // socket.on('chat message', function(msg){
+        //   console.log("recieved: " + msg);
+        // });
       </script>
       
     </head>
